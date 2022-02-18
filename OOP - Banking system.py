@@ -38,3 +38,24 @@ class Bank(User):
         self.customer_details()
         print("Account Balance : Rs. ", self.balance)
         
+
+        
+        
+'''
+Output Sequence ->
+
+Run this program and create specific object with this type of format
+
+example -
+
+john = Bank('John', 25, 'Male') --> Hit Enter (To create object of Bank class)
+john.deposit(10000) --> Hit Enter
+john.withdraw(5000) --> Hit Enter
+john.check_balance() --> Hit Enter
+john.customer_details() --> Hit Enter
+
+
+We can create such entries as much as we want
+
+
+''' 
