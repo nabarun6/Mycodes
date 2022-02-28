@@ -2,9 +2,11 @@ import cv2
 import face_recognition
 
 imgElon = face_recognition.load_image_file("G:/Python codes/faces/images/elon.jpg")
+imgElon = cv2.resize(imgElon,(0,0),None,0.25,0.25)
 imgElon = cv2.cvtColor(imgElon, cv2.COLOR_BGR2RGB)
 
 imgTest = face_recognition.load_image_file("G:/Python codes/faces/images/elon2.jpg")
+imgTest = cv2.resize(imgTest,(0,0),None,0.25,0.25)
 imgTest = cv2.cvtColor(imgTest, cv2.COLOR_BGR2RGB)
 
 faceLoc = face_recognition.face_locations(imgElon)[0]
