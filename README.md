@@ -1,1 +1,1 @@
-This repository is independently maintained by Mr. Nabarun Samaddar.
+This repository is created and maintained by Mr. Nabarun Samaddar.
